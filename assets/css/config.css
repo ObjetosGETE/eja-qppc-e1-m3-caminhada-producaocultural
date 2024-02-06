@@ -2,7 +2,8 @@
     --cor-textos: #333;
     --cor-titulo:rgb(255, 255, 255);
     --font-textos-family: 'Segoe ui', sans-serif;
-    --font-textos-weight: "600";
+    --font-textos-weight: 600;
+    --font-titulos-weight: 700;
     /* --font-titulo: 'Archivo Black', sans-serif; */
     /* --paletta-amarelo-base: #E5BC5E;
     --paletta-amarelo-hover: #c5a04b;

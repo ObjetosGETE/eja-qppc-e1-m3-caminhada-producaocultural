@@ -76,7 +76,42 @@ margin: auto;
 }
 
 #textointro .paragrafos p {
-    font-family: attr(--font-textos-family);
-    font-weight: attr(--font-textos-weight);
-    color: attr(--cor-textos);
+    font-family: var(--font-textos-family);
+    font-weight: var(--font-textos-weight);
+    color: var(--cor-textos);
+}
+
+#textofinal
+{
+  position: absolute;
+  top: 35560px;
+  left: 490px;
+  font-size: 1.5em;
+  width: 1190px;
+}
+#textofinal h3 {
+  font-family: var(--font-textos-family);
+  font-weight: var(--font-titulos-weight);
+  
+  font-size: 40px;
+}
+#textofinal p {
+  font-family: var(--font-textos-family);
+  font-weight: var(--font-textos-weight);
+  font-size: 30px;
+}
+#textofinal .paragrafo1
+{
+  position: relative;
+  padding-left: 0px;
+  width: 850px;
+  top: 30px;
+  left: 100px;
+}
+#textofinal .paragrafo2
+{
+  position: relative;
+  top: 30px;
+  left: 240px;
+  width: 830px;
 }
