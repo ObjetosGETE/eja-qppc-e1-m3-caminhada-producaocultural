@@ -1,0 +1,82 @@
+@import "config.css";
+@import "bgs.css";
+@import "titles.css";
+@import "secao.css";
+@import "elementos.css";
+@import "tags.css";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;                   
+}
+
+.corpo {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* logotipo */
+#logo
+{
+  width: 870px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 70px;
+  display: block;
+}
+
+/* tag rolar */
+#tag_rolar {
+display: block;
+max-width: 600px;
+position: relative;
+left: 0;
+right: 0;
+margin: auto;
+
+}
+
+/* Textos */
+
+#textointro {
+    background: url(../img/desktop/elementos/painel.png) top left / 100% auto no-repeat;
+    display: block;
+    width: 900px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    top: 260px;
+}
+
+#textointro::before
+{
+  content: "";
+  width: 100%;
+  height: auto;
+  padding-top: 82%;
+  z-index: 1;
+  display: block;
+  position: relative;
+}
+
+#textointro .paragrafos
+{
+  position: absolute;
+  top: 250px;
+  left: 320px;
+  width: 450px;
+  transform: rotate(-6deg);
+}
+
+#textointro .paragrafos p {
+    font-family: attr(--font-textos-family);
+    font-weight: attr(--font-textos-weight);
+    color: attr(--cor-textos);
+}

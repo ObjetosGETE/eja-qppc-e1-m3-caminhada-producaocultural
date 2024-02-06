@@ -1,0 +1,23 @@
+/* Tiles */
+.titles {
+    position: absolute;
+}
+#title_intro
+{
+  width: 700px;
+  margin-left: 220px;
+}
+#title_cultura
+{
+  width: 896px;
+  height: 294px;
+  top: 8180px;
+  left: 100px;
+}
+#title_midia
+{
+  width: 896px;
+  height: 294px;
+  top: 13300px;
+  right: 100px;
+}

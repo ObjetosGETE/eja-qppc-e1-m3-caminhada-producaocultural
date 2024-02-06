@@ -1,0 +1,104 @@
+.elementos {
+    position: absolute;
+    display: block;
+}
+.elemento1
+{
+  top: 42px;
+  left: 0px;
+}
+.elemento2
+{
+  top: 1090px;
+  left: 0px;
+}
+.elemento3
+{
+  top: 1420px;
+  right: 0px;
+}
+.elemento4
+{
+  top: 2180px;
+  left: 610px;
+}
+.elemento5
+{
+  top: 5610px;
+  left: 0;
+}
+.elemento6
+{
+  top: 6677px;
+  right: -12px;
+}
+.elemento7
+{
+  top: 8580px;
+  left: 70px;
+}
+.elemento8
+{
+  top: 9310px;
+  right: 100px;
+}
+.elemento9
+{
+  top: 9590px;
+  left: 24px;
+}
+.elemento10
+{
+  top: 9730px;
+  right: 40px;
+}
+.elemento11
+{
+  top: 10300px;
+  left: 0;
+}
+.elemento13
+{
+  top: 10914px;
+  right: 0;
+}
+.elemento14
+{
+  top: 10580px;
+  right: 40px;
+}
+.elemento15
+{
+  top: 11016px;
+  left: 0.5px;
+}
+.elemento15-recorte
+{
+  top: 11004px;
+  left: -3px;
+}
+.elemento16
+{
+  top: 12179px;
+  right: 6px;
+}
+.elemento17
+{
+  top: 13569px;
+  right: -20px;
+}
+.elemento18
+{
+  top: 13906px;
+  right: -19px;
+}
+.elemento19
+{
+  top: 14420px;
+  left: 161px;
+}
+.elemento20
+{
+  top: 14700px;
+  right: 0;
+}

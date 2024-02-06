@@ -1,0 +1,18 @@
+/* Seção */
+
+.secao.secaointro
+{
+  height: 1181px;
+}
+.secao.secao1
+{
+  height: 1492px;
+}
+
+/* Secao 2 */
+.secao.secao2
+{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
