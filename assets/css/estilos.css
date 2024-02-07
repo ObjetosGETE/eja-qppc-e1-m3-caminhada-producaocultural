@@ -6,18 +6,25 @@
 @import "tags.css"; */
 
 html, body {
-    height: 100%;
+height: 100%;
 }
 
 body {
     margin: 0px;
-    padding: 0px;                   
+    padding: 0px;  
+                     
 }
-
+#app {
+  height: 100%;
+}
 .corpo {
-    width: 100%;
+    width: 100em;
+    font-size: 1vw;
+    max-width: 100%;
     position: relative;
     overflow: hidden;
+    transform-origin: left top;
+
 }
 
 /* logotipo */
@@ -52,7 +59,7 @@ margin: auto;
     height: auto;
     position: relative;
     margin: auto;
-    top: 260px;
+    top: 260em;
 }
 
 #textointro::before
@@ -105,13 +112,13 @@ margin: auto;
   position: relative;
   padding-left: 0px;
   width: 850px;
-  top: 30px;
-  left: 100px;
+  top: 90px;
+  left: 180px;
 }
 #textofinal .paragrafo2
 {
   position: relative;
-  top: 30px;
-  left: 240px;
+  top: 180px;
+  left: 380px;
   width: 830px;
 }

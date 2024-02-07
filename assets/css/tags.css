@@ -1,6 +1,15 @@
 .tags {
     position: absolute;
     display: block;
+    
+}
+
+.tags p {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 1px;
+  color: #ffffff00;
 }
 
 .tag1
@@ -156,43 +165,4 @@
   width: 611px;
   height: 610px;
 }
-.tag20
-{
-  top: 5500px;
-  left: 172px;
-  background: url(../img/desktop/tags/tag_20.png) top left / 100% auto no-repeat;
-  width: 874px;
-  height: 444px;
-}
-.tag21
-{
-  top: 5500px;
-  left: 172px;
-  background: url(../img/desktop/tags/tag_21.png) top left / 100% auto no-repeat;
-  width: 705px;
-  height: 599px;
-}
-.tag22
-{
-  top: 5500px;
-  left: 172px;
-  background: url(../img/desktop/tags/tag_22.png) top left / 100% auto no-repeat;
-  width: 922px;
-  height: 1040px;
-}
-.tag23
-{
-  top: 5500px;
-  left: 172px;
-  background: url(../img/desktop/tags/tag_23.png) top left / 100% auto no-repeat;
-  width: 921px;
-  height: 937px;
-}
-.tag24
-{
-  top: 5500px;
-  left: 172px;
-  background: url(../img/desktop/tags/tag_24.png) top left / 100% auto no-repeat;
-  width: 906px;
-  height: 905px;
-}
+
