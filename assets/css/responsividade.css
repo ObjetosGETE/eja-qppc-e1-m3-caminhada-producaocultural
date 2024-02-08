@@ -1,0 +1,258 @@
+@media only screen and (max-width: 1200px){
+    #textointro
+        {
+            background: url(../img/desktop/elementos/painel.png) top left / 100% auto no-repeat;
+            display: block;
+            width: 77.8em;
+            height: 64.2em;
+            position: relative;
+            left: 8em;
+            top: -14em;
+        }
+    #textointro .paragrafos
+        {
+            position: absolute;
+            top: 22em;
+            left: 27.7em;
+            width: 37.3em;
+            transform: rotate(-6deg);
+          }
+    #textointro .paragrafos p
+          {
+              font-size: 1.6em;
+            }
+    #textofinal h3
+            {
+              font-family: var(--font-textos-family);
+              font-weight: var(--font-titulos-weight);
+              font-size: 1.9em;
+            }
+}
+
+@media only screen and (max-width: 768px){
+    #textofinal h3
+    {
+        font-family: var(--font-textos-family);
+        font-weight: var(--font-titulos-weight);
+        font-size: 2.5em;
+      }
+    .elementos, .titles{
+        display: none;
+      }
+    .corpo
+      {
+        width: 100em;
+        font-size: 4.1vw;
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+        transform-origin: left top;
+      }
+      #textointro
+      {
+          display: block;
+          width: 100%;
+          position: absolute;
+          left: 0.7em;
+          top: 14em;
+          height: unset;
+          background: unset;
+        }
+        #textointro .paragrafos
+{
+    position: absolute;
+    top: 32em;
+    left: 2.4em;
+    width: 76%;
+    transform: unset;
+  }
+            #textointro .paragrafos p
+            {
+                font-size: 1em;
+              }
+              .secao.secao1
+{
+  height: auto;
+}
+.secao.secaointro
+{
+  height: 71.813em;
+}
+.tags {
+    background: unset !important
+}
+.tag1
+{
+  top: 6.65em;
+  left: -1.4em;
+  background: unset;
+  width: 23.05em;
+  height: 26.4375em;
+}
+.tag2
+{
+  top: 53.5em;
+  left: -0.25em;
+  background: unset;
+  width: 24.125em;
+  height: 28.638em;
+}
+.tag3
+{
+  top: 101.625em;
+  right: 0;
+  background: unset;
+  width: 24.188em;
+  height: 20.688em;
+}
+.tag4
+{
+  top: 145.25em;
+  left: -0.7em;
+  background: unset;
+  width: 24.625em;
+  height: 23.688em;
+}
+.tag5
+{
+  top: 199.625em;
+  left: -0.125em;
+  background: unset;
+  width: 23.813em;
+  height: 23.788em;
+}
+.tag6
+{
+  top: 236.4em;
+  right: 0;
+  background: unset;
+  width: 23.938em;
+  height: 24.188em;
+}
+.tag7
+{
+  top: 288.625em;
+  left: 0;
+  background: unset;
+  width: 24.938em;
+  height: 19.438em;
+}
+.tag8
+{
+  top: 336.688em;
+  right: 0;
+  background: unset;
+  width: 24.25em;
+  height: 20.788em;
+}
+.tag9
+{
+  top: 428.25em;
+  left: 0;
+  background: unset;
+  width: 23.938em;
+  height: 26.8em;
+}
+.tag10
+{
+  top: 477.05em;
+  right: 0;
+  background: unset;
+  width: 23.875em;
+  height: 18.6em;
+}
+.tag11
+{
+  top: 551.25em;
+  right: 0;
+  background: unset;
+  width: 24.188em;
+  height: 21.163em;
+}
+.tag12
+{
+  top: 664.125em;
+  right: 0;
+  background: unset;
+  width: 24.5em;
+  height: 18.125em;
+}
+.tag13
+{
+  top: 708.75em;
+  right: 0;
+  background: unset;
+  width: 24.25em;
+  height: 20.888em;
+}
+.tag14
+{
+  top: 793.25em;
+  left: 0;
+  background: unset;
+  width: 25.188em;
+  height: 18.088em;
+}
+.tag15
+{
+  top: 850.563em;
+  left: 0;
+  background: unset;
+  width: 29.25em;
+  height: 9.975em;
+}
+.tag16
+{
+  top: 881.75em;
+  right: 0;
+  background: unset;
+  width: 24.063em;
+  height: 17.588em;
+}
+.tag17
+{
+  top: 924.375em;
+  left: 0;
+  background: unset;
+  width: 24.938em;
+  height: 25.525em;
+}
+.tag18
+{
+  top: 978.25em;
+  right: 0;
+  background: unset;
+  width: 24.25em;
+  height: 21.775em;
+}
+.tag19
+{
+  top: 1028.25em;
+  left: 0;
+  background: unset;
+  width: 24.188em;
+  height: 20.125em;
+}
+#textofinal
+{
+  position: absolute;
+  top: 4367em;
+  left: 3em;
+  font-size: 1vw;
+  width: 91em;
+}
+#textofinal h3
+{
+    font-family: var(--font-textos-family);
+    font-weight: var(--font-titulos-weight);
+    font-size: 5.4em;
+  }
+  #textofinal .paragrafo1, #textofinal .paragrafo2
+{
+    position: relative;
+    width: 17em;
+    top: 1em;
+    left: 0;
+    font-size: 5.2em;
+  }
+}

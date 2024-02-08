@@ -12,6 +12,7 @@ height: 100%;
 body {
     margin: 0px;
     padding: 0px;  
+    font-size: 16px;
                      
 }
 #app {
@@ -30,38 +31,35 @@ body {
 /* logotipo */
 #logo
 {
-  width: 870px;
+  width: 47.375em;
   position: relative;
-  left: 0;
-  right: 0;
-  margin: auto;
-  margin-top: 70px;
+  left: 25.95em;
+  top: 2.375em;
   display: block;
 }
 
 /* tag rolar */
-#tag_rolar {
-display: block;
-max-width: 600px;
-position: relative;
-left: 0;
-right: 0;
-margin: auto;
-
+#tag_rolar
+{
+  display: block;
+  max-width: 31em;
+  position: relative;
+  left: 35em;
+  top: 2.5em;
 }
 
 /* Textos */
 
-#textointro {
-    background: url(../img/desktop/elementos/painel.png) top left / 100% auto no-repeat;
-    display: block;
-    width: 900px;
-    height: auto;
-    position: relative;
-    margin: auto;
-    top: 260em;
+#textointro
+{
+  background: url(../img/desktop/elementos/painel.png) top left / 100% auto no-repeat;
+  display: block;
+  width: 46.8em;
+  height: 39em;
+  position: relative;
+  left: 24em;
+  top: 0em;
 }
-
 #textointro::before
 {
   content: "";
@@ -76,9 +74,9 @@ margin: auto;
 #textointro .paragrafos
 {
   position: absolute;
-  top: 250px;
-  left: 320px;
-  width: 450px;
+  top: 12.5em;
+  left: 16.7em;
+  width: 23.3em;
   transform: rotate(-6deg);
 }
 
@@ -91,34 +89,40 @@ margin: auto;
 #textofinal
 {
   position: absolute;
-  top: 35560px;
-  left: 490px;
-  font-size: 1.5em;
-  width: 1190px;
+  top: 1810em;
+  left: 24em;
+  font-size: 1vw;
+  width: 46em;
 }
+
 #textofinal h3 {
   font-family: var(--font-textos-family);
   font-weight: var(--font-titulos-weight);
   
   font-size: 40px;
 }
+
 #textofinal p {
   font-family: var(--font-textos-family);
   font-weight: var(--font-textos-weight);
   font-size: 30px;
 }
+
 #textofinal .paragrafo1
 {
   position: relative;
-  padding-left: 0px;
-  width: 850px;
-  top: 90px;
-  left: 180px;
+  width: 27em;
+  top: 3em;
+  left: 6em;
+  font-size: 1.9vw;
 }
+
 #textofinal .paragrafo2
 {
   position: relative;
-  top: 180px;
-  left: 380px;
-  width: 830px;
+  top: 7em;
+  left: 11em;
+  width: 24em;
+  font-size: 1.9vw;
 }
+

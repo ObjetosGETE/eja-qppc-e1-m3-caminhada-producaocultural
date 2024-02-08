@@ -1,259 +1,336 @@
 .elementos {
     position: absolute;
     display: block;
+    height: auto;
 }
 .elemento1
 {
-  top: 42px;
-  left: 0px;
+  top: 2.625em;
+  left: 0em;
+  width: 100em;
 }
 .elemento2
 {
-  top: 1090px;
-  left: 0px;
+  top: 55.125em;
+  left: 0em;
+  width: 41.95em;
 }
 .elemento3
 {
-  top: 1420px;
-  right: 0px;
+  top: 72.35em;
+  right: -0.9em;
+  width: 45.4em;
 }
 .elemento4
 {
-  top: 2180px;
-  left: 610px;
+  top: 110.55em;
+  left: 30.125em;
+  width: 71.6em;
 }
 .elemento5
 {
-  top: 5610px;
-  left: 0;
+  top: 288.4em;
+  left: 0em;
+  width: 100em;
 }
 .elemento6
 {
-  top: 6677px;
-  right: -12px;
+  top: 340.613em;
+  left: -0.25em;
+  width: 100em;
+  height: 117.5em;
+
 }
 .elemento7
 {
-  top: 8580px;
-  left: 70px;
+  top: 436.95em;
+  left: 2.375em;
+  width: 31em;
 }
 .elemento8
 {
-  top: 9310px;
-  right: 100px;
+  top: 473.875em;
+  right: 5.25em;
+  width: 33em;
 }
 .elemento9
 {
-  top: 9590px;
-  left: 24px;
+  top: 488.375em;
+  left: 1.5em;
+  width: 34.95em;
 }
 .elemento10
 {
-  top: 9730px;
-  right: 40px;
+  top: 495.125em;
+  right: 1.5em;
+  width: 37em;
 }
 .elemento11
 {
-  top: 10300px;
-  left: 0;
+  top: 523.75em;
+  left: 0em;
+  width: 100em;
 }
 .elemento13
 {
-  top: 10914px;
-  right: 0;
+  top: 553.425em;
+  right: 0em;
+  width: 47.7em;
 }
 .elemento14
 {
-  top: 10580px;
-  right: 40px;
+  top: 537.25em;
+  right: 6.5em;
+  width: 30em;
 }
-.elemento15
-{
-  top: 11016px;
-  left: 0.5px;
-}
+
 .elemento15-recorte
 {
-  top: 11004px;
-  left: -3px;
+  top: 560.588em;
+  left: -0.185em;
+  width: 41.85em;
 }
+
+.elemento15
+{
+  top: 561.2em;
+  left: -0.069em;
+  height: 39.7em;
+}
+
 .elemento16
 {
-  top: 12179px;
-  right: 6px;
+  top: 621.888em;
+  right: 4.375em;
+  width: 28em;
 }
+
 .elemento17
 {
-  top: 13569px;
-  right: -20px;
+  top: 694.438em;
+  right: 0;
+  width: 59.65em;
 }
+
 .elemento18
 {
-  top: 13906px;
-  right: -19px;
+  top: 711.125em;
+  right: -1.1875em;
+  width: 49.35em;
 }
+
 .elemento19
 {
-  top: 14420px;
-  left: 161px;
+  top: 736.25em;
+  left: 8.063em;
+  width: 39.25em;
 }
+
 .elemento20
 {
-  top: 14700px;
+  top: 758.75em;
   right: 0;
+  width: 47.7em;
 }
+
 .elemento21
 {
-  top: 15300px;
+  top: 778.25em;
   right: 0;
+  width: 100em;
 }
+
 .elemento22
 {
-  top: 16711px;
-  left: 418px;
+  top: 852.138em;
+  left: 21.725em;
+  width: 58.45em;
 }
+
 .elemento23
 {
-  top: 17481px;
+  top: 892.563em;
   left: 0;
+  width: 50.1em;
 }
 .elemento24
 {
-  top: 18611px;
+  top: 951.188em;
   left: 0;
+  width: 45.75em;
 }
+
 .elemento25
 {
-  top: 18611px;
+  top: 950.188em;
   right: 0;
+  width: 48.5em;
 }
+
 .elemento26
 {
-  top: 19361px;
-  left: 0;
+  top: 991.063em;
+  left: 0em;
+  width: 100em;
 }
+
 .elemento27
 {
-  top: 20261px;
-  left: 0;
+  top: 1033.013em;
+  left: 0em;
+  width: 46.55em;
 }
+
 .elemento28
 {
-  top: 21261px;
-  right: 0;
+  top: 1084.813em;
+  right: 0em;
+  width: 74em;
 }
+
 .elemento29
 {
-  top: 23751px;
-  left: 0;
+  top: 1210.538em;
+  left: 0em;
+  width: 46.6em;
 }
+
 .elemento30
 {
-  top: 24011px;
-  right: 0;
+  top: 1225.688em;
+  right: 0em;
+  width: 47.75em;
 }
+
 .elemento31
 {
-  top: 24311px;
-  left: 0;
+  top: 1239.438em;
+  left: 0em;
+  width: 37.87em;
 }
 .elemento32
 {
-  top: 25091px;
-  right: 0;
+  top: 1280.188em;
+  right: 0em;
+  width: 50.15em;
 }
 .elemento33
 {
-  top: 25961px;
-  left: 0px;
+  top: 1322.563em;
+  left: 0em;
+  width: 48.4em;
 }
 .elemento34
 {
-  top: 25851px;
-  right: 112px;
+  top: 1318.688em;
+  right: 7em;
+  width: 32.73em;
 }
 .elemento35
 {
-  top: 26671px;
-  left: 52px;
+  top: 1358.938em;
+  left: 3.25em;
+  width: 34.1em;
 }
 .elemento36
 {
-  top: 26341px;
-  right: 0;
+  top: 1346.313em;
+  right: 0em;
+  width: 46.2em;
 }
 .elemento37
 {
-  top: 26988px;
-  left: 0;
+  top: 1376.25em;
+  left: 0em;
+  width: 47em;
 }
 .elemento38
 {
-  top: 27086px;
-  right: 28px;
+  top: 1381.575em;
+  right: 1.75em;
+  width: 37em;
 }
 .elemento39
 {
-  top: 28573px;
-  right: 84px;
+  top: 1455.813em;
+  right: 5.25em;
+  width: 37.85em;
 }
 .elemento40
 {
-  top: 28853px;
-  left: 0;
+  top: 1473.313em;
+  left: 0em;
+  width: 38.15em;
 }
 .elemento41
 {
-  top: 29633px;
-  left: 290px;
+  top: 1511.063em;
+  left: 18.125em;
+  width: 75.55em;
 }
 .elemento42
 {
-  top: 30880px;
-  right: 10px;
+  top: 1579em;
+  right: 0.625em;
+  width: 40.3em;
 }
 .elemento43
 {
-  top: 31550px;
-  right: 0;
+  top: 1613.875em;
+  right: 0em;
+  width: 59.2em;
 }
 .elemento44
 {
-  top: 31810px;
-  left: 170px;
+  top: 1625.125em;
+  left: 10.625em;
+  width: 35em;
 }
 .elemento45
 {
-  top: 31990px;
-  right: 0;
+  top: 1633.375em;
+  right: 0em;
+  width: 40em;
 }
+
 .elemento46
 {
-  top: 32300px;
-  left: 130px;
+  top: 1646.75em;
+  left: 8.125em;
+  width: 43.15em;
 }
+
 .elemento47
 {
-  top: 33150px;
-  left: 0px;
+  top: 1691.875em;
+  left: 4em;
+  width: 41.2em;
 }
+
 .elemento48
 {
-  top: 33040px;
-  right: 0px;
+  top: 1686em;
+  right: 0em;
+  width: 41.45em;
 }
+
 .elemento49
 {
-  top: 33750px;
-  right: 14px;
+  top: 1719.375em;
+  right: 0.875em;
+  width: 44em;
 }
+
 .elemento50
 {
-  top: 34720px;
-  left: 14px;
+  top: 1771.5em;
+  left: 0.875em;
+  width: 10.95em;
 }
+
 .elemento51
 {
-  top: 34797px;
-  right: 14px;
+  top: 1773.813em;
+  right: 0.875em;
+  width: 40.6em;
 }

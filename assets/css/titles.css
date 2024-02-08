@@ -1,38 +1,40 @@
 /* Tiles */
 .titles {
-    position: absolute;
+  position: absolute;
 }
 #title_intro
 {
-  width: 700px;
-  margin-left: 220px;
+width: 43.75em;
+margin-left: 13.75em;
 }
 #title_cultura
 {
-  width: 896px;
-  height: 294px;
-  top: 8180px;
-  left: 100px;
+  width: 43em;
+  height: auto;
+  top: 416.25em;
+  left: 8.25em;
 }
 #title_midia
 {
-  width: 896px;
-  height: 294px;
-  top: 13300px;
-  right: 100px;
-}
+  width: 51em;
+  top: 680.25em;
+  right: 2.25em;
+} 
 #title_criacoes
 {
-  top: 16430px;
-  right: 0px;
+  top: 836.875em;
+  right: 0em;
+  width: 53.29em;
 }
 #title_tecnologia
 {
-  top: 22146px;
-  left: 0px;
+  top: 1130.125em;
+  left: 0em;
+  width: 46.95em;
 }
 #title_conclusao
 {
-  top: 28060px;
-  left: 0px;
+  top: 1434.75em;
+  left: 0em;
+  width: 47.75em;
 }
