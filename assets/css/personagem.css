@@ -1,0 +1,43 @@
+#mirella {
+    width: 349.5px;
+    height: 556px;
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    top: 10em;
+    left: 43em;
+    
+    
+}
+#mirella.fixa {
+    position: absolute;
+    top: 40em;
+}
+#mirella.frente 
+{
+    background-image: url(../img/desktop/mirella/idle_frente.png);
+}
+#mirella.costas
+{
+    background-image: url(../img/desktop/mirella/idle_costas.png);
+}
+#mirella.caminhando{
+    animation-name: caminhando;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(12);
+}
+#mirella.caminhando.frente{
+    background-image: url(../img/desktop/mirella/frente.png);
+}
+#mirella.caminhando.costas{
+    background-image: url(../img/desktop/mirella/costas.png);
+}
+
+/* Caminhando - Frente */
+@keyframes caminhando {
+    from { background-position:    0px; }
+      to { background-position: -4200px; }
+ }
