@@ -1,9 +1,11 @@
-/* @import "config.css";
 @import "bgs.css";
-@import "titles.css";
+@import "tags.css"; 
+@import "config.css";
 @import "secao.css";
 @import "elementos.css";
-@import "tags.css"; */
+@import "titles.css";
+@import "personagem.css";
+@import "responsividade.css";
 
 html, body {
 height: 100%;
