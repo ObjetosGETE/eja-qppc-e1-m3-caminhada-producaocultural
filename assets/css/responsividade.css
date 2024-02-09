@@ -255,4 +255,7 @@
     left: 0;
     font-size: 5.2em;
   }
+  #mirella {
+    display: none !important;
+  }
 }

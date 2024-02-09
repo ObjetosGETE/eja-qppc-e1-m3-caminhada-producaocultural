@@ -1,7 +1,7 @@
 $(function (){
     let direcao_atual = 0;
     $(window).scroll(function (e){
-       if(testedeposicao()==true)
+       if(testedeposicao()===true)
        {
             // Reset
             reset_personagem()
@@ -24,10 +24,13 @@ $(function (){
 
             direcao_atual = this.scrollY;
        }else {
-
-        // se estiver em um lugar errado:
-        // sumir com a mirella, ou
-        // parar eval.
+        reset_personagem();
+        if(distancia <= posicao_inicial){
+            $("#mirella").addClass("fixa inicial")
+        }else{
+            $("#mirella").addClass("fixa final")
+        }
+       
        }   
         
 
@@ -38,15 +41,38 @@ $(function (){
 
 // https://stackoverflow.com/questions/9144560/jquery-scroll-detect-when-user-stops-scrolling
 $(window).scroll(function() {
-    if(testedeposicao()==true){
+    if(testedeposicao()===true){
         clearTimeout($.data(this, 'scrollTimer'));
         $.data(this, 'scrollTimer', setTimeout(function() {
             $("#mirella").removeClass("caminhando") 
         }, 250));
     }else{
-        // se estiver em posição errada não movimentar a mirella
+        reset_personagem();
+        if(distancia > posicao_inicial){
+            $("#mirella").addClass("fixa final")
+        }else{
+            $("#mirella").addClass("fixa inicial")
+        }
     }
 });
+
+// Posição inicial do Personagem
+let posicao_inicial = 3152.416748046875;
+// Posição final do Personagem
+let posicao_final = 36100.792;
+// Tamanho padrão de monitor esperado
+let padrao_window_x = 1903;
+// Captura a largura nova do usuário
+let nova_window_x = Number($(window).width());
+// Identifica qual a posição nova em px do dispositivo do usuário
+let posicao_final_dinamica = (nova_window_x * posicao_final) / padrao_window_x;
+let posicao_inicial_dinamica = (nova_window_x * posicao_inicial) / padrao_window_x;
+$(window).resize(function (){
+    nova_window_x = Number($(window).width());
+    posicao_final_dinamica = (nova_window_x * posicao_final) / padrao_window_x;
+    posicao_inicial_dinamica = (nova_window_x * posicao_inicial) / padrao_window_x;
+})
+
 
 // Obter a distância entre o topo do elemento e o topo da janela
 let distancia = $(window).scrollTop();
@@ -63,32 +89,40 @@ var posicao = elemento.offset().top;
 $(window).scroll(function() {
     distancia = $(window).scrollTop();
      // Comparar a distância com a altura do elemento
-  if (distancia <= posicao) {
-    // O usuário rolou o site até ou além da posição desejada
-    console.log("Você chegou!", distancia);
-  }
-  console.log(distancia, altura, posicao);
+//   if (distancia <= posicao) {
+//     // O usuário rolou o site até ou além da posição desejada
+
+//   }
+
 });
+
+
 
 // testa se chegou a hora da Mirella caminhar
 let testedeposicao = function (e){
-    let posicao_inicial = 3141.53125;
-
-    if (distancia >= posicao_inicial) {
-        // O usuário rolou o site até ou além da posição desejada
-        return true
-      }
     
-    if(distancia <= posicao_inicial){
-        reset_personagem();
-        $("#mirella").addClass("fixa")
-    }
-    
+    if (distancia >= posicao_inicial_dinamica && distancia <= posicao_final_dinamica) {
+        // Personagem pode caminhar
+        return true;
+      }else {
+        // Personagem não pode caminhar
+        return false;
+      }  
     
 }
 
+// Caso o usuário de um refresh na página ele atualiza o personagem para a posição correta.
+if(testedeposicao() === true){
+    console.log("Pode pode pode")
+}else{
+    console.log("Não Não Não")
+}
+
+// Reset de personagem para o estado correto
 let reset_personagem = function (e){
     $("#mirella").removeClass("fixa");
-    $("#mirella").removeClass("idle");
+    // $("#mirella").removeClass("idle");
+    $("#mirella").removeClass("inicial");
+    $("#mirella").removeClass("final");
     $("#mirella").removeClass("caminhando"); 
 }

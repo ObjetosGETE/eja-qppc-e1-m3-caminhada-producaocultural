@@ -126,3 +126,15 @@ body {
   font-size: 1.9vw;
 }
 
+/* Loader */
+.loader {
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+  touch-action: none;
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  top: -100vh;
+  left: -100vw;
+}

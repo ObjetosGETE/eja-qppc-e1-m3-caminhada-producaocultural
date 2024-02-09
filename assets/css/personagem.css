@@ -1,6 +1,6 @@
 #mirella {
-    width: 349.5px;
-    height: 556px;
+    width: 21.84375em; /* 349.5px */
+    height: 30.75em; /* 556px */
     display: block;
     position: fixed;
     overflow: hidden;
@@ -13,7 +13,13 @@
 }
 #mirella.fixa {
     position: absolute;
+    
+}
+#mirella.fixa.inicial {
     top: 40em;
+}
+#mirella.fixa.final {
+    top: 1750em;
 }
 #mirella.frente 
 {
@@ -38,6 +44,6 @@
 
 /* Caminhando - Frente */
 @keyframes caminhando {
-    from { background-position:    0px; }
-      to { background-position: -4200px; }
+    from { background-position:    0em; }
+    to { background-position: -232.35em; }
  }
